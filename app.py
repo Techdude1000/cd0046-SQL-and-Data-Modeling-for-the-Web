@@ -1,7 +1,9 @@
 #----------------------------------------------------------------------------#
 # Imports
 #----------------------------------------------------------------------------#
-
+import collections
+import collections.abc
+collections.Callable = collections.abc.Callable
 import json
 import dateutil.parser
 import babel
